@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Усыновить - Дом лап</title>
+</head>
+<body>
+
+  <header style="background-color: #4CAF50; color: white; padding: 10px 20px; text-align: center;">
+    <h1>Дом лап</h1>
+    <nav>
+      <ul style="list-style: none; padding: 0; text-align: center;">
+        <li style="display: inline; margin-right: 10px;"><a href="index.html" style="color: white; text-decoration: none;">Главная</a></li>
+        <li style="display: inline; margin-right: 10px;"><a href="about.html" style="color: white; text-decoration: none;">О нас</a></li>
+        <li style="display: inline; margin-right: 10px;"><a href="adopt.html" style="color: white; text-decoration: none;">Усыновить</a></li>
+        <li style="display: inline; margin-right: 10px;"><a href="contact.html" style="color: white; text-decoration: none;">Контакты</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main style="padding: 20px;">
+    <section>
+      <h2>Как усыновить питомца</h2>
+      <p>Чтобы усыновить питомца, заполните форму ниже. Мы свяжемся с вами для дальнейших шагов.</p>
+      <form action="#" method="POST">
+        <label for="adopt-name" style="display: block; margin-bottom: 5px;">Ваше имя:</label>
+        <input type="text" id="adopt-name" name="adopt-name" style="width: 100%; padding: 10px; margin-bottom: 10px;" required>
+
+        <label for="adopt-email" style="display: block; margin-bottom: 5px;">Ваш email:</label>
+        <input type="email" id="adopt-email" name="adopt-email" style="width: 100%; padding: 10px; margin-bottom: 10px;" required>
+
+        <label for="adopt-pet" style="display: block; margin-bottom: 5px;">Выберите питомца:</label>
+        <select id="adopt-pet" name="adopt-pet" style="width: 100%; padding: 10px; margin-bottom: 10px;">
+          <option value="murka">Мурка</option>
+          <option value="barsik">Барсик</option>
+          <option value="sherlock">Шерлок</option>
+        </select>
+
+        <button type="submit" style="background-color: #4CAF50; color: white; padding: 10px 20px; border: none; margin-top: 10px;">Подать заявку</button>
+      </form>
+    </section>
+  </main>
+
+  <footer style="background-color: #4CAF50; color: white; text-align: center; padding: 10px; position: fixed; width: 100%; bottom: 0;">
+    <p>&copy; 2025 Дом лап</p>
+  </footer>
+
+</body>
+</html>
